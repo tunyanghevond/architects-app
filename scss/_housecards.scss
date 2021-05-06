@@ -1,0 +1,38 @@
+.houses {
+  .house-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+    @include responsive(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include responsive(phone) {
+      grid-template-columns: 1fr;
+    }
+  }
+  h2 {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+  hr {
+    margin: 35px 0;
+  }
+  div {
+    position: relative;
+  }
+  img {
+    width: 100%;
+  }
+  p {
+    width: 50%;
+    background: #060606;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+  }
+}
