@@ -1,0 +1,31 @@
+@import "mediQuery";
+@import "nav";
+@import "showcase";
+@import "housecards";
+@import "infocontent";
+@import "contact-info";
+@import "xbox";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+}
+a {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  margin: 0 40px;
+}

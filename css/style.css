@@ -1,0 +1,171 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 5px;
+  padding: 20px;
+  height: 80px;
+  top: 0;
+  background: white;
+  z-index: 999;
+  font-size: 25px;
+  box-shadow: 3px 3px 3px 3px #888888;
+  font-weight: 500; }
+  .main-nav .menu {
+    display: flex; }
+    @media screen and (max-width: 790px) {
+      .main-nav .menu {
+        display: none; } }
+  .main-nav .menu li {
+    padding: 10px; }
+  .main-nav a {
+    padding: 10px; }
+  .main-nav a:hover {
+    background: gray;
+    cursor: pointer; }
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/architect.jpg") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 25px; }
+  .showcase h1 > strong {
+    padding: 20px 30px;
+    background: rgba(7, 6, 6, 0.8); }
+  .showcase h1 > span {
+    padding: 20px;
+    margin-right: 10px; }
+
+.houses .house-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; }
+  @media screen and (max-width: 1100px) {
+    .houses .house-cards {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media screen and (max-width: 790px) {
+    .houses .house-cards {
+      grid-template-columns: 1fr; } }
+
+.houses h2 {
+  margin-top: 60px;
+  font-size: 30px; }
+
+.houses hr {
+  margin: 35px 0; }
+
+.houses div {
+  position: relative; }
+
+.houses img {
+  width: 100%; }
+
+.houses p {
+  width: 50%;
+  background: #060606;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 23px; }
+
+.info-content {
+  margin-bottom: 20px; }
+  .info-content .about-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    font-size: 25px; }
+    @media screen and (max-width: 1100px) {
+      .info-content .about-cards {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media screen and (max-width: 790px) {
+      .info-content .about-cards {
+        grid-template-columns: 1fr; } }
+  .info-content h2 {
+    margin-top: 60px;
+    font-size: 30px; }
+  .info-content hr {
+    margin: 35px 0; }
+  .info-content .info {
+    font-size: 25px;
+    margin-bottom: 45px; }
+  .info-content img {
+    width: 100%; }
+  .info-content p {
+    margin: 10px 0; }
+  .info-content button {
+    width: 100%;
+    background: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    font-size: 20px; }
+    .info-content button:hover {
+      cursor: pointer;
+      background: #8f8a8a; }
+
+.contact-info {
+  margin-bottom: 20px; }
+  .contact-info h2 {
+    margin-bottom: 10px; }
+  .contact-info p {
+    margin: 20px 0; }
+  .contact-info input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black; }
+  .contact-info button {
+    padding: 15px 38px;
+    background: black;
+    color: white; }
+    .contact-info button:hover {
+      cursor: pointer;
+      background: #c7c3c3;
+      color: #ecebeb; }
+
+.xbox {
+  padding: 20px 0; }
+  .xbox .xbox-content {
+    background: url("/img/map.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 500px; }
+
+.footer {
+  padding: 20px;
+  background: black;
+  color: white;
+  text-align: center; }
+  .footer p {
+    padding: 15px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5; }
+
+a {
+  color: #0a0a0a;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.container {
+  margin: 0 40px; }

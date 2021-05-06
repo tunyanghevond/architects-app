@@ -1,0 +1,17 @@
+{
+  "name": "architects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.12"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "test": "node-sass scss/style.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
